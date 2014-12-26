@@ -49,3 +49,44 @@ and will return a response.
 .. todo::
    Should we put the error when `python manage.py migrate` not run or just include the command
    above before running `manage.py runserver` ?
+
+Try to access the page using browser. Type into the browser's address bar - *http://localhost:8000/*.
+You should see something like below:-
+
+.. image:: /images/01-runserver-initial.png
+
+Mapping URL to function
+=======================
+So how actually the page being generated ? How Django know to generate the page when user type
+the URL such as *http://localhost:8000/* above ?
+
+Django allow us to define a mapping between the url such as:-
+
+    * http://localhost:8000/
+    * http://localhost:8000/page/hello/
+    * http://www.myshop.com/products/flash-card/
+    * ...
+
+To a certain a function that will be executed to return the output (response) to user. So url like
+*http://localhost:8000/* can be mapped to function named `index()` and Django will call that function
+whenever user request the url through their browser or any HTTP client.
+
+.. note:: Browser like Google Chrome, Mozilla Firefox or Microsoft Internet Explorer are just one of HTTP
+          client that can be used to access HTTP resources using URL. There are also command line clients
+          like CURL or Wget that also can be used similar to browsers.
+
+The process of mapping URL path to function (or any kind of handlers) also called **routing**. In Django,
+this is done through `urlpatterns` configuration. Open file named `myshop/urls.py`
+[:download:`download </src/myshop/urls.py>`] and you should see
+the following code::
+
+    from django.conf.urls import patterns, include, url
+    from django.contrib import admin
+
+    urlpatterns = patterns('',
+        # Examples:
+        # url(r'^$', 'myshop.views.home', name='home'),
+        # url(r'^blog/', include('blog.urls')),
+
+        url(r'^admin/', include(admin.site.urls)),
+    )
