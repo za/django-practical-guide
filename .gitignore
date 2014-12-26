@@ -1,0 +1,6 @@
+_build
+*.sqlite3
+*.pyc
+*.swp
+*.dump
+*.db
