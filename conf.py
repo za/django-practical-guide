@@ -200,7 +200,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Django Practical Guide.tex', u'Django Practical Guide',
+  ('index', 'DjangoPracticalGuide.tex', u'Django Practical Guide',
    u'kamal@marimore.co.jp', 'manual'),
 ]
 
@@ -230,7 +230,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'Django Practical Guide', u'Django Practical Guide',
+    ('index', 'DjangoPracticalGuide', u'Django Practical Guide',
      [u'kamal@marimore.co.jp'], 1)
 ]
 
