@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'MARIMORE Engineering Official Django Training'
+project = u'Django Practical Guide'
 copyright = u'2014, kamal@marimore.co.jp'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -180,7 +180,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'MARIMOREEngineeringOfficialDjangoTrainingdoc'
+htmlhelp_basename = 'DjangoPracticalGuide'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -200,7 +200,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'MARIMOREEngineeringOfficialDjangoTraining.tex', u'MARIMORE Engineering Official Django Training Documentation',
+  ('index', 'Django Practical Guide.tex', u'Django Practical Guide',
    u'kamal@marimore.co.jp', 'manual'),
 ]
 
@@ -230,7 +230,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'marimoreengineeringofficialdjangotraining', u'MARIMORE Engineering Official Django Training Documentation',
+    ('index', 'Django Practical Guide', u'Django Practical Guide',
      [u'kamal@marimore.co.jp'], 1)
 ]
 
@@ -244,8 +244,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'MARIMOREEngineeringOfficialDjangoTraining', u'MARIMORE Engineering Official Django Training Documentation',
-   u'kamal@marimore.co.jp', 'MARIMOREEngineeringOfficialDjangoTraining', 'One line description of project.',
+  ('index', 'DjangoPracticalGuide', u'Django Practical Guide',
+   u'kamal@marimore.co.jp', 'DjangoPracticalGuide', 'One line description of project.',
    'Miscellaneous'),
 ]
 
