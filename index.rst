@@ -15,6 +15,7 @@ Contents:
    contents/prework
    contents/01-build-page
    contents/02-processing-input
+   contents/03-testing
 
 
 
