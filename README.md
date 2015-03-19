@@ -51,6 +51,8 @@ You can use *either* virtualenv *or* virtualenv with virtualenvwrapper installed
 
 # Install sphinx
 
+Using pip.
+
     pip install `sphinx`
 
     ```
@@ -59,7 +61,9 @@ You can use *either* virtualenv *or* virtualenv with virtualenvwrapper installed
 
 # Build 
 
-    Clone the git repository
+html.
+
+   Clone the git repository
 
     ```
     ~$ git clone https://github.com/marimore/django-practical-guide.git
