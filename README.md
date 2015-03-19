@@ -51,47 +51,45 @@ You can use *either* virtualenv *or* virtualenv with virtualenvwrapper installed
 
 # Install sphinx
 
-Using pip.
+pip install `sphinx`
 
-    pip install `sphinx`
-
-    ```
-    (sphinx) ~$ pip install sphinx 
-    ```
+```
+(sphinx) ~$ pip install sphinx 
+```
 
 # Build 
 
-html.
+Clone the git repository
 
-   Clone the git repository
+```
+~$ git clone https://github.com/marimore/django-practical-guide.git
+```
 
-    ```
-    ~$ git clone https://github.com/marimore/django-practical-guide.git
-    ```
+Change directory
 
-    Change directory
+```
+~$ cd django-practical-guide/
+~/django-practical-guide$ 
+```
 
-    ```
-    ~$ cd django-practical-guide/
-    ~/django-practical-guide$ 
-    ```
+Build html
 
-    Build html
- 
-    ```
-    ~/django-practical-guide$ sphinx-build -b html . build/html
-    ```
+```
+~/django-practical-guide$ sphinx-build -b html . build/html
+```
 
-    Run the serve script 
-    ```
-    ~/django-practical-guide$ ./serve.sh
-    Serving HTTP on 0.0.0.0 port 8000 ...
-    ``` 
+Run the serve script 
 
-    Open in your favorite web browser
-    ```
-    http://localhost:8000
-    ```
+```
+~/django-practical-guide$ ./serve.sh
+Serving HTTP on 0.0.0.0 port 8000 ...
+``` 
+
+Open in your favorite web browser
+
+```
+http://localhost:8000
+```
 
 # Contribute
 
